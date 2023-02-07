@@ -24,9 +24,10 @@ public class program01 {
         System.out.println(x+x);
         System.out.println(y*y);
         System.out.println(x*x);
-        		
+        
         		
     
     }
-  
+   
+    
 } 
