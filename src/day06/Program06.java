@@ -1,12 +1,19 @@
 package day06;
 
+import java.util.Scanner;
+
 public class Program06 {
 
 	public static void main(String[] args) {
 		//+ - * / (Q) %(R)  Number
-		int a=45;
-		int b=5;
-		double c=5;
+		Scanner x=new Scanner(System.in);
+		System.out.println("Enter Value of a:-");
+		int a=x.nextInt();
+		System.out.println("Enter Value of a:-");
+		int b=x.nextInt();
+		System.out.println("Enter Double Value of a:-");
+		double c=x.nextDouble();
+		x.close();
 		//int () int--->int
 		//int () double/float---->double/float
 		
