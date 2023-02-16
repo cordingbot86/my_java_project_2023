@@ -3,38 +3,39 @@ package day07;
 public class Program06 {
 
 	public static void main(String[] args) {
-	    int x=20;
+	    int x=15;
 	    int y=10;
-	    int z=5;
+	    int z=10;
 	    
 	    System.out.println("Start Program...!");
-	    if(x>y)
+	    
+	    if (x>=y && y>=z)
 	    {
-	    	System.out.println("x is greater...!");
-	    }
-        if(y>z)
-        {
-        	System.out.println("y  is greater...!");
-        }
-        if(x>z)
-        {
-        	System.out.println("x is greater..!");
-        }
-        else if(x<y)
-        {
-        	System.out.println("y is greater..!");
-        }
-        else if(y<z)
-        {
-        	System.out.println("z is greater..!");
-        }
-        else if(x==y)
-        {
-        	System.out.println("x & y are equal...!");
-        }
-        else if(y==z)
-        {
-        	System.out.println("y & z are equal...!");
+	    	if (x==y && x==z)
+	    	{
+	    		System.out.println("x,y & z are equal");
+	    	}
+	    	else if (x==y && x>z)
+	    	{
+	    		System.out.println("x & y are equal and greater than z ");
+	    	}
+	    	else if (x==z && x>y)
+	    	{
+	    		System.out.println("x & z are equal and greater than y");
+	    	}
+	    	else if (y>z)
+	    	{
+	    		System.out.println("x is greater than y and y is greater than z");
+	    	}
+	    	else if (z>y) 
+	    	{
+	    		System.out.println("x is greater than z and z is greater than y");
+	    		
+	    	}
+	    	else if (y==z)
+	    	{
+	    		System.out.println("x is greater than y&z and y & z are equal");
+	    	}
         }
         
         System.out.println("End Program..!");
