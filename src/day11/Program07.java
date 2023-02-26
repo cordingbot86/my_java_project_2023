@@ -1,27 +1,25 @@
 package day11;
 
-public class Program06 {
+public class Program07 {
 
 	public static void main(String[] args) {
 		
 		/*
 		 54321
-		 4321
-		 321
-		 21
-		 1
+		 5432
+		 543
+		 54
+		 5
 		 */
-         
-		for(int i=1;i>=1;i--)
+		for(int i=1;i<=5;i++)
 		{
-		for(int j=5;j>=1;j--)
+		for(int j=5;j>=i;j--)
 		{
 			System.out.print(j);
 		}
 		System.out.println();
 		}
-			
-	
+
 	}
 
 }
